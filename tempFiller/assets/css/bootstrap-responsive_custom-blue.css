@@ -1,0 +1,49 @@
+/* custom css for Orange Color-------------------------------------------------- */
+/* Countdown -----------------------------*/
+#countDown {font-size:13px }
+#countDown  .countdown_section{ color:#fff; padding:18px 0; width:24%; display: inline-block; line-height:1.9em; text-align: center; min-width:24%; font-size:100%}
+#countDown  .countdown_amount{ color:#fff; padding:28px 0; font-size:380%; line-height:1.5em;}
+/* body---------------------------------- */
+body {border-top:solid 5px #008AB8;position: relative;padding-top: 25px;background-color: #fff;background: url(../custom_img/3.jpg) no-repeat center 0;}
+/* Social media-------------------------- */
+#socialmedia{position:absolute; top:8px; right:8px;}
+#socialmedia a{display:inline-block}
+#comingsoon{color:#fff; padding:4% 6%; background:#000;position: relative;
+ /* works for IE 5+. */
+filter:alpha(opacity=80); 
+/* works for IE 8. */
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+/* works for old school versions of the Mozilla browsers like Netscape Navigator. */
+-moz-opacity:0.8; 
+/* This is for old versions of Safari (1.x) with KHTML rendering engine */
+-khtml-opacity: 0.8; 
+/* This is the "most important" one because it's the current standard in CSS. This will work in most versions of Firefox, Safari, and Opera. */  
+opacity: 0.8; }
+#comingsoon .center, footer.center, #comingsoon{text-align:center; max-width:740px; margin:0 auto;}
+#header h1 {margin-bottom: 8px; font-size: 24px; color:#fff; }
+#intro p {text-align: left;color: white;font-size: 13px;line-height: 1.5em;}
+#comingsoon section {padding-top: 20px;}
+section#email-collector {padding-top: 2px;}
+#comingsoon  .well, #comingsoon.hero-unit {background-color: #131517;border:0; border-top: solid 1px #353535; -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);}
+#countDown {width:100%; border-radius: 8px;display: inline-block; margin-bottom: 0;text-align: center;vertical-align: middle;background-color: #292929;
+background-image: -moz-linear-gradient(top, #333, #191919);
+background-image: -ms-linear-gradient(top, #333, #191919);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333), to(#191919));
+background-image: -webkit-linear-gradient(top, #333, #191919);
+background-image: -o-linear-gradient(top, #333, #191919);
+background-image: linear-gradient(top, #333, #191919);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#191919', GradientType=0);
+border-color: #191919 #191919 black;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+/* Email collector---------------------------- */
+#email-collector .btn-warning{background-color:#008ab8;background-image:-moz-linear-gradient(top, #0099cc, #007399);background-image:-ms-linear-gradient(top, #0099cc, #007399);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#0099cc), to(#007399));background-image:-webkit-linear-gradient(top, #0099cc, #007399);background-image:-o-linear-gradient(top, #0099cc, #007399);background-image:linear-gradient(top, #0099cc, #007399);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0099cc', endColorstr='#007399', GradientType=0);border-color:#007399 #007399 #00394d;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);*background-color:#007399;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}#email-collector .btn-warning:hover,#email-collector .btn-warning:active,#email-collector .btn-warning.active,#email-collector .btn-warning.disabled,#email-collector .btn-warning[disabled]{background-color:#007399;*background-color:#006080;}
+#email-collector input[type="email"]{border: 1px solid #05C; color:#000}
+#email-collector .input-large {padding: 4px 9px; height:29px; width:291px}
+#email-collector .btn-large {padding: 9px 14px; font-weight:bold; }
+#email-collector{text-align:center;}
+input#emailTxt[type="email"]{color:#000}
+footer.center{color:#fff; padding:8px 8px 80px}
+
+
